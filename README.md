@@ -12,3 +12,6 @@ The code keeps track of the results of each player for each round of the game, a
 The player hits based on the basic blackjack strategy defined in the code, which considers the player's total hand value and the dealer's up card.
 
 For example, if the player's total hand value is less than 12, the player hits until the total hand value is 12 or greater. If the player's total hand value is exactly 12 and the dealer's up card is 2, 3, 7, 8, 9, or 10, the player hits. If the player's total hand value is between 13 and 16 (inclusive) and the dealer's up card is 2, 3, 4, 5, or 6, the player hits. If the player's total hand value is exactly 17 and the dealer's up card is 2, 3, 4, 5, 6, or 7, the player hits. If the player's total hand value is 18 or greater, the player stands (does not hit).
+
+
+Reference for hitting and staying was used from https://blog.betway.com/casino/blackjack-strategy-101-what-is-the-hit-stand-betting-system/.
